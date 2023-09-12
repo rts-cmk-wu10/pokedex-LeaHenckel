@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    background-color: blue;
+    background-image: url('./img/hey.png');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center center;
+    background-position-y: 200px; /* Move the background image down by 90 pixels */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; /* Align to the top of the container */
+    height: 100vh; /* Ensures the container takes the full viewport height */
+    position: relative;
+    margin-top: 67px;
+}
+
+.pokemon-image {
+    width: 20%; /* Makes the image of the pokémon 30% of its original size */
+    max-width: 150px; 
+    margin-bottom: 100px; 
+}
+
+.MovedIn {
+    text-align: center; 
+    margin: 0 auto; 
+    color: yellow;
+}
+
+.MovedIn p {
+    font-size: 60px; 
+    font-weight: bold; 
+}
+
+.heightAndWeight {
+    margin-bottom: 2px; /* Adjusts the space between paragraphs */
+}
+
+.Abilities {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 5px;
+}

@@ -10,3 +10,30 @@ body {
     margin: 0 auto; 
     color: yellow;
 }
+
+.searchSection {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rounding the edges of the input and button */
+.pokemon__search, button {
+    border-radius: 10px; 
+}
+
+.pokemon__search, button {
+    padding: 10px; /* Padding added to make the input and button look more visually appealing */
+}
+
+/* Styling the button to have a background color and change color on hover */
+button {
+    background-color: #007BFF; /* Change to your desired background color */
+    color: black; /* Text color */
+    transition: background-color 0.3s ease; /* Color transition when the mouse hovers */
+}
+
+button:hover {
+    background-color: yellow; /* Change to your desired hover background color */
+}

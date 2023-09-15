@@ -6,21 +6,44 @@ body {
 }
 
 .MovedIn {
-    text-align: center; 
-    margin: 0 auto; 
+    text-align: center;
     color: yellow;
 }
 
 .searchSection {
     margin-top: 40px;
+}
+
+.centered-elements {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    border: 2px solid white; 
+    padding: 20px; 
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.pokeList {
+    list-style: none;
+}
+
+.navigation-links {
+    display: flex; /* flexbox for horizontal alignment */
+    gap: 30px; 
+}
+
+.prevPage,
+.nextPage {
+    text-decoration: none; 
+    color: yellow; 
 }
 
 /* Rounding the edges of the input and button */
 .pokemon__search, button {
     border-radius: 10px; 
+    margin-top: 30px;
 }
 
 .pokemon__search, button {
@@ -29,11 +52,15 @@ body {
 
 /* Styling the button to have a background color and change color on hover */
 button {
-    background-color: #007BFF; /* Change to your desired background color */
-    color: black; /* Text color */
+    background-color: #007BFF; 
+    color: black; 
     transition: background-color 0.3s ease; /* Color transition when the mouse hovers */
 }
 
 button:hover {
-    background-color: yellow; /* Change to your desired hover background color */
+    background-color: yellow; 
+}
+
+.searchSection {
+    text-align: center;
 }
